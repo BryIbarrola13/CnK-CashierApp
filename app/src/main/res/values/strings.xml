@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Craft &amp; Knot Cashier</string>
+    <string name="brand_name">Craft &amp; Knot</string>
+    <string name="app_logo_desc">App Logo</string>
+
+    <!-- Dashboard -->
+    <string name="total_sold">Total Sold</string>
+    <string name="total_sales">Total Sales</string>
+    <string name="currency_symbol">₱</string>
+    <string name="zero_value">0</string>
+    <string name="zero_currency">₱0.00</string>
+
+    <!-- Scanning / POS -->
+    <string name="scanned_product">Scanned Product</string>
+    <string name="product_name_label">Product Name</string>
+    <string name="category_label">Category: %s</string>
+    <string name="stock_label">Stock: %1$d / %2$d</string>
+    <string name="amount_paid">Amount Paid</string>
+    <string name="change_label">Change: ₱%.2f</string>
+    <string name="insufficient_label">Insufficient: ₱%.2f</string>
+    <string name="btn_check_only">Check Only</string>
+    <string name="btn_confirm_buy">Confirm Buy</string>
+    <string name="btn_scan_camera">Scan Barcode / QR</string>
+    <string name="btn_scan_gallery">Scan QR from Gallery</string>
+    <string name="btn_go_to_add">Add New Product</string>
+    <string name="btn_view_inventory">View Full Inventory</string>
+    <string name="btn_add_to_cart">Add to Cart</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="cart_total">Total: ₱%.2f</string>
+    <string name="btn_clear_cart">Clear Cart</string>
+    <string name="btn_checkout">Checkout</string>
+
+    <!-- Add Product -->
+    <string name="title_add_product">Add New Product</string>
+    <string name="hint_product_name">Product Name</string>
+    <string name="hint_price">Price (₱)</string>
+    <string name="hint_quantity">Initial Quantity</string>
+    <string name="btn_select_image">Select Product Image</string>
+    <string name="btn_save_inventory">Save to Inventory</string>
+    <string name="qr_generated">Product QR Code Generated</string>
+    <string name="btn_save_qr">Save QR to Gallery</string>
+
+    <!-- Inventory -->
+    <string name="title_inventory">Inventory List</string>
+    <string name="btn_export">Export</string>
+    <string name="filter_all">All</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_edit_title">Edit Product</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="dialog_delete_title">Delete Product</string>
+    <string name="dialog_delete_msg">Are you sure you want to delete %s?</string>
+    <string name="btn_delete">Delete</string>
+</resources>

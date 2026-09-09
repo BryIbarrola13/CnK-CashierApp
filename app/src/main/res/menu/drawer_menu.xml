@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_product"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/btn_go_to_add" />
+        <item
+            android:id="@+id/nav_inventory"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/btn_view_inventory" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Purchase History" />
+    </group>
+    <item android:title="Data Management">
+        <menu>
+            <item
+                android:id="@+id/nav_export_data"
+                android:icon="@android:drawable/ic_menu_save"
+                android:title="Backup Data (Export)" />
+            <item
+                android:id="@+id/nav_import_data"
+                android:icon="@android:drawable/ic_menu_upload"
+                android:title="Restore Data (Import)" />
+        </menu>
+    </item>
+</menu>
